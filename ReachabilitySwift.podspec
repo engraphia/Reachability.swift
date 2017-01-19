@@ -7,7 +7,8 @@ Pod::Spec.new do |s|
   }
   s.summary      = 'Replacement for Apple\'s Reachability re-written in Swift with callbacks.'
   s.license      = { :type => 'MIT' }
-
+  s.module_name = 'Reachability'
+  
 # Source Info
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.9"
